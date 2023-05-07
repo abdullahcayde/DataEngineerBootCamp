@@ -1,0 +1,1 @@
+*/1 * * * * /home/ubuntu/exam_bash_cay/exam.sh

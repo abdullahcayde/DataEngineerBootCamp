@@ -1,0 +1,108 @@
+Mon May  1 09:30:01 UTC 2023
+rtx3060 : 8
+rtx3070 : 1
+rtx3080 : 1
+rtx3090 : 14
+rx6700 : 3
+Mon May  1 09:31:01 UTC 2023
+rtx3060 : 19
+rtx3070 : 3
+rtx3080 : 3
+rtx3090 : 10
+rx6700 : 0
+Mon May  1 09:32:01 UTC 2023
+rtx3060 : 8
+rtx3070 : 4
+rtx3080 : 4
+rtx3090 : 4
+rx6700 : 6
+Mon May  1 09:33:01 UTC 2023
+rtx3060 : 9
+rtx3070 : 0
+rtx3080 : 0
+rtx3090 : 0
+rx6700 : 13
+Mon May  1 09:34:01 UTC 2023
+rtx3060 : 18
+rtx3070 : 20
+rtx3080 : 20
+rtx3090 : 2
+rx6700 : 12
+Mon May  1 09:35:01 UTC 2023
+rtx3060 : 6
+rtx3070 : 15
+rtx3080 : 15
+rtx3090 : 1
+rx6700 : 15
+Mon May  1 09:36:01 UTC 2023
+rtx3060 : 11
+rtx3070 : 2
+rtx3080 : 2
+rtx3090 : 6
+rx6700 : 12
+Mon May  1 09:37:01 UTC 2023
+rtx3060 : 6
+rtx3070 : 16
+rtx3080 : 16
+rtx3090 : 9
+rx6700 : 1
+Mon May  1 09:38:01 UTC 2023
+rtx3060 : 12
+rtx3070 : 15
+rtx3080 : 15
+rtx3090 : 7
+rx6700 : 5
+Mon May  1 09:39:01 UTC 2023
+rtx3060 : 16
+rtx3070 : 9
+rtx3080 : 9
+rtx3090 : 0
+rx6700 : 4
+Mon May  1 09:40:01 UTC 2023
+rtx3060 : 6
+rtx3070 : 17
+rtx3080 : 17
+rtx3090 : 16
+rx6700 : 2
+Mon May  1 09:41:01 UTC 2023
+rtx3060 : 12
+rtx3070 : 10
+rtx3080 : 10
+rtx3090 : 13
+rx6700 : 8
+Mon May  1 09:42:01 UTC 2023
+rtx3060 : 3
+rtx3070 : 2
+rtx3080 : 2
+rtx3090 : 9
+rx6700 : 7
+Mon May  1 09:43:01 UTC 2023
+rtx3060 : 5
+rtx3070 : 12
+rtx3080 : 12
+rtx3090 : 4
+rx6700 : 15
+Mon May  1 09:44:01 UTC 2023
+rtx3060 : 11
+rtx3070 : 14
+rtx3080 : 14
+rtx3090 : 14
+rx6700 : 13
+Mon May  1 09:45:01 UTC 2023
+rtx3060 : 4
+rtx3070 : 0
+rtx3080 : 0
+rtx3090 : 20
+rx6700 : 8
+Mon May  1 09:46:01 UTC 2023
+rtx3060 : 9
+rtx3070 : 9
+rtx3080 : 9
+rtx3090 : 9
+rx6700 : 15
+Mon May  1 09:47:01 UTC 2023
+rtx3060 : 17
+rtx3070 : 13
+rtx3080 : 13
+rtx3090 : 2
+rx6700 : 12
