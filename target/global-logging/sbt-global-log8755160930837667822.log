@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtMapExec 6 __5cd93b76-7d27-41f4-a5f7-1c1ed7c37156, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(bspBuildTargetDependencySources file:/Users/macbook/Desktop/IBM/DATA%20ENGINEER/00%20-%20BootCamp%20Data%20Engineer%20-%20DataScientist/Ders%20Notlari%20Jupeyter%20Notebook/#ders-notlari-jupeyter-notebook/Test file:/Users/macbook/Desktop/IBM/DATA%20ENGINEER/00%20-%20BootCamp%20Data%20Engineer%20-%20DataScientist/Ders%20Notlari%20Jupeyter%20Notebook/#ders-notlari-jupeyter-notebook/Compile file:/Users/macbook/Desktop/IBM/DATA%20ENGINEER/00%20-%20BootCamp%20Data%20Engineer%20-%20DataScientist/Ders%20Notlari%20Jupeyter%20Notebook/#ders-notlari-jupeyter-notebook-build, Some(__5cd93b76-7d27-41f4-a5f7-1c1ed7c37156), Some(CommandSource(network-2)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing buildTarget/dependencySources"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: bspBuildTargetDependencySources[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mFetching artifacts of [0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"Fetching artifacts of "})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"Fetching artifacts of "})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [true,null])[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [true,null])[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
