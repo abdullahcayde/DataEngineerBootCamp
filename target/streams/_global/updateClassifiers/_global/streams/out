@@ -1,0 +1,85 @@
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/Users/macbook/Desktop/IBM/DATA%20ENGINEER/00%20-%20BootCamp%20Data%20Engineer%20-%20DataScientist/Ders%20Notlari%20Jupeyter%20Notebook/"), "ders-notlari-jupeyter-notebook")...[0m
+[0m[[0m[0minfo[0m] [0m[0mFetching artifacts of [0m
+[0m[[0m[0minfo[0m] [0m[0mFetched artifacts of [0m
+[0m[[0m[31merror[0m] [0m[0mlmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:[0m
+[0m[[0m[31merror[0m] [0m[0mhttps://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.17/scala-library-2.12.17-javadoc.jar: download error: Caught java.net.ConnectException (Connection refused) while downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.17/scala-library-2.12.17-javadoc.jar[0m
+[0m[[0m[31merror[0m] [0m[0mhttps://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.17/scala-compiler-2.12.17-javadoc.jar: download error: Caught java.net.ConnectException (Connection refused) while downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.17/scala-compiler-2.12.17-javadoc.jar[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.Artifacts$.$anonfun$fetchArtifacts$9(Artifacts.scala:365)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$extension$1(Task.scala:14)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$extension$1$adapted(Task.scala:14)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.util.Task$.wrap(Task.scala:82)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$2(Task.scala:14)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:833)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: lmcoursier.internal.shaded.coursier.cache.ArtifactError$DownloadError: download error: Caught java.net.ConnectException (Connection refused) while downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.17/scala-library-2.12.17-javadoc.jar[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$.helper$2(Downloader.scala:793)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$.coursier$cache$internal$Downloader$$downloading(Downloader.scala:806)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$Blocking$.remote(Downloader.scala:415)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader.$anonfun$remote$6(Downloader.scala:533)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Success.$anonfun$map$1(Try.scala:255)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Success.map(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:833)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.net.ConnectException: Connection refused[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.Net.connect0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.Net.connect(Net.java:579)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.Net.connect(Net.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.net.Socket.connect(Socket.java:633)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.net.Socket.connect(Socket.java:583)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:532)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.http.HttpClient$1.run(HttpClient.java:591)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.http.HttpClient$1.run(HttpClient.java:589)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:588)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:632)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:202)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1263)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.CacheUrl$.rangeResOpt(CacheUrl.scala:218)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.CacheUrl$.urlConnectionMaybePartial(CacheUrl.scala:341)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.ConnectionBuilder.connectionMaybePartial(ConnectionBuilder.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$Blocking$.doDownload(Downloader.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$Blocking$.$anonfun$remote$2(Downloader.scala:410)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$Blocking$.$anonfun$remote$1(Downloader.scala:413)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$.$anonfun$downloading$1(Downloader.scala:764)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withUrlLock(CacheLocks.scala:112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$.helper$2(Downloader.scala:764)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$.coursier$cache$internal$Downloader$$downloading(Downloader.scala:806)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader$Blocking$.remote(Downloader.scala:415)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.internal.Downloader.$anonfun$remote$6(Downloader.scala:533)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Success.$anonfun$map$1(Try.scala:255)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Success.map(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:833)[0m
+[0m[[0m[31merror[0m] [0m[0m([31mupdateClassifiers[0m) lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:[0m
+[0m[[0m[31merror[0m] [0m[0mhttps://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.17/scala-library-2.12.17-javadoc.jar: download error: Caught java.net.ConnectException (Connection refused) while downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.17/scala-library-2.12.17-javadoc.jar[0m
+[0m[[0m[31merror[0m] [0m[0mhttps://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.17/scala-compiler-2.12.17-javadoc.jar: download error: Caught java.net.ConnectException (Connection refused) while downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.17/scala-compiler-2.12.17-javadoc.jar[0m
